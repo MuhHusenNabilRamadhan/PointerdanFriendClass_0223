@@ -9,4 +9,5 @@ int main()
     int *c = &a; //aristik c 
     cout << "Alamat memori  : " << c << endl;
     cout << "Nilai dari C : " << *c << endl;
+    c = &y;
  };
