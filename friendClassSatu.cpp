@@ -9,7 +9,7 @@ private :
     string nama;
 
 public : 
-    void setNama(string pNama)
+    void setNama(string pNama);
     friend class siswa;
 };
  class siswa
@@ -20,4 +20,9 @@ public :
     public : 
         void setId(int pId);
         void displayAll(orang &a);
+ };
+
+ void orang::setNama(string pNama)
+ {
+    nama = pNama;
  }
