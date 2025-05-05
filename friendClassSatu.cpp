@@ -26,3 +26,8 @@ public :
  {
     nama = pNama;
  }
+
+ void siswa::setId(int pId)
+ {
+    id = pId;
+ };
