@@ -15,4 +15,6 @@ int main()
 
     //reference 
     int &d = b;
+    cout << "Nilai" << d << endl;
+    cout << "reference" << &d << endl;
  };
