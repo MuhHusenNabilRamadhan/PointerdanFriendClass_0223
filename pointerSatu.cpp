@@ -7,5 +7,6 @@ int main()
     int b = 6;
     int y = 20; 
     int *c = &a; //aristik c 
-    
+    cout << "Alamat memori  : " << c << endl;
+    cout << "Nilai dari C : " << *c << endl;
  };
