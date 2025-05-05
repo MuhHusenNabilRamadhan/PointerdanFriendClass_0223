@@ -10,6 +10,9 @@ int main()
     cout << "Alamat memori  : " << c << endl;
     cout << "Nilai dari C : " << *c << endl;
     c = &y;
-    cout << "Alamat memori : " << c << endl;
+    cout << "Alamat memori : " << c << endl; //menampilkan lokasi memo
     cout << " Nilai dari C : " << *c << endl;
+
+    //reference 
+    int &d = b;
  };
